@@ -6,16 +6,6 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 
 ---
 
-## Features
-
-- **Predefined Folder Structure**: Organize your notes into categories such as Daily Notes, Projects, and Resources.
-- **Custom Templates**: Quickly create new notes with prefilled content using templates for daily logs, meeting notes, or project tracking.
-- **Tag and Metadata System**: Consistent metadata blocks for every note to improve searchability and organization.
-- **Kanban Integration**: A ready-to-use Kanban board setup to track tasks and projects (if the Obsidian Kanban plugin is installed).
-- **Compatibility with Plugins**: Designed to work seamlessly with popular Obsidian plugins like Calendar, Dataview, and Tasks.
-
----
-
 ## Installation
 
 1. **Download the Template**: Clone or download the repository containing this template.
@@ -24,6 +14,16 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 3. **Enable Core Plugins**: Activate plugins like "Templates" and "Daily Notes" in Obsidian settings if they’re not already enabled.
 4. **Install Recommended Plugins** (optional): For the best experience, install plugins such as:
    - 
+
+---
+
+## Features
+
+- **Predefined Folder Structure**: Organize your notes into categories such as Daily Notes, Projects, and Resources.
+- **Custom Templates**: Quickly create new notes with prefilled content using templates for daily logs, meeting notes, or project tracking.
+- **Tag and Metadata System**: Consistent metadata blocks for every note to improve searchability and organization.
+- **Kanban Integration**: A ready-to-use Kanban board setup to track tasks and projects (if the Obsidian Kanban plugin is installed).
+- **Compatibility with Plugins**: Designed to work seamlessly with popular Obsidian plugins like Calendar, Dataview, and Tasks.
 
 ---
 
