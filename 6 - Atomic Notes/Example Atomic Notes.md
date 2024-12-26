@@ -4,7 +4,7 @@ mytags: "[[example]]"
 status: "[[baby]]"
 ---
 # Definition
-
+![[istockphoto-484234714-612x612.jpg]]
 
 # Examples
 
