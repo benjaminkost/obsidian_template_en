@@ -96,4 +96,4 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 
 ---
 
-Thank you for using [Your Template Name]! We hope it helps streamline your Obsidian workflow.
+Thank you for using my obsidian template! I hope it helps streamline your Obsidian workflow.
