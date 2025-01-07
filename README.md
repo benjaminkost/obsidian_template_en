@@ -12,8 +12,9 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 - [click me to download repo](https://github.com/benjaminkost/obsidian_template_en/archive/refs/heads/master.zip)
 2. **Open in Obsidian**: Copy the folder into your Obsidian vault directory. Make sure it’s in the root folder or a desired subfolder.
 3. **Enable Core Plugins**: Activate plugins like "Templates" and "Daily Notes" in Obsidian settings if they’re not already enabled.
-4. **Install Recommended Plugins** (optional): For the best experience, install plugins such as:
-   - 
+4. **Install Recommended Plugins** (optional): For the best experience, install community plugins such as:
+   - Zotero Integration
+   - Latex Suite
 
 ---
 
