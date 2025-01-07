@@ -89,6 +89,12 @@ Feel free to customize the folder structure, templates, or metadata to suit your
 - Adjust metadata fields to better align with your projects.
 
 ---
+## Design Choses
+- New Notes (connected with Links) for tags focusing on content
+   -> These Notes can later be used as an index (or a [MoC](https://forum.obsidian.md/t/what-is-a-moc/58423/11)) to structure your Notes  
+- The actual [Tags from Obsidian](https://help.obsidian.md/Editing+and+formatting/Tags) are used for [status, types (book, paper, website, etc.)](https://forum.obsidian.md/t/a-guide-on-links-vs-tags-in-obsidian/28231/4?u=benboomer)
+
+---
 
 ## Support
 
