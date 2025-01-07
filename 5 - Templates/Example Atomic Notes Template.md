@@ -1,7 +1,7 @@
 ---
 "created date:": "{{date:DD.MM.YYYY}} {{time}}"
 mytags: 
-status:
+tags:   
 ---
 # Definition
 

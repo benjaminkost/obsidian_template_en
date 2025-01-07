@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Example Rough Note.md",
+                "file": "5 - Templates/Example Atomic Notes Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Example Rough Note"
+              "title": "Example Atomic Notes Template"
             }
           }
         ]
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16747c23b45d0c76",
+  "active": "50d207360d625cf6",
   "lastOpenFiles": [
+    "1 - Rough Notes/Example Rough Note.md",
     "2 - Source Material/Papers/sample.pdf",
     "2 - Source Material/Images/istockphoto-484234714-612x612.jpg",
     "2 - Source Material/Books/the-book-collector-example-2023-01.pdf",
@@ -172,7 +173,6 @@
     "2 - Source Material/Webpages/Example Domain.pdf",
     "2 - Source Material/Others/dummy.pdf",
     "4 - Indexes/example index.md",
-    "1 - Rough Notes/Example Rough Note.md",
     "6 - Atomic Notes/Example Atomic Notes.md",
     "3 - Tags/adult.md",
     "3 - Tags/child.md",
@@ -184,7 +184,6 @@
     "2 - Source Material/Webpages",
     "2 - Source Material/Books",
     "2 - Source Material/Papers",
-    "2 - Source Material/Videos",
     "Welcome.md"
   ]
 }
