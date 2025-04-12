@@ -1,7 +1,8 @@
 ---
 "created date:": "{{date:DD.MM.YYYY}} {{time}}"
 mytags: 
-tags:   
+tags:
+  - baby
 ---
 # Definition
 
