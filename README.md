@@ -10,43 +10,54 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 
 1. **Download the Template**: Clone or download the repository containing this template.
 - [click me to download repo](https://github.com/benjaminkost/obsidian_template_en/archive/refs/heads/master.zip)
-2. **Open in Obsidian**: Copy the folder into your Obsidian vault directory. Make sure it’s in the root folder or a desired subfolder.
-3. **Enable Core Plugins**: Activate plugins like "Templates" and "Daily Notes" in Obsidian settings if they’re not already enabled.
-4. **Install Recommended Plugins** (optional): For the best experience, install plugins such as:
-   - 
-
----
-
-## Features
-
-- **Predefined Folder Structure**: Organize your notes into categories such as Daily Notes, Projects, and Resources.
-- **Custom Templates**: Quickly create new notes with prefilled content using templates for daily logs, meeting notes, or project tracking.
-- **Tag and Metadata System**: Consistent metadata blocks for every note to improve searchability and organization.
-- **Kanban Integration**: A ready-to-use Kanban board setup to track tasks and projects (if the Obsidian Kanban plugin is installed).
-- **Compatibility with Plugins**: Designed to work seamlessly with popular Obsidian plugins like Calendar, Dataview, and Tasks.
+2. **Rename folder**: Rename the folder that was downloaded according to your needs
+3. **Move folder**: Move the downloaded folder into your desired location on your file system
+4. **Open in Obsidian**: Open the Obsidian program on your desktop and select open vault and there you navigate to the place where you moved the downloaded folder and select open
+4. **Enable Core Plugins**: Activate all "Core Plugins" like "Templates" in Obsidian settings if they’re not already enabled.
+5. **Enable Community Plugin**: Activate "Dataview" Plugin in the settings under section "Community Plugins"
 
 ---
 
 ## Folder Structure
 
 ```plaintext
-┌— [Your Vault Root]
- ├── Templates
- ├── Daily Notes
- ├── Projects
- ├── Resources
- ├── Archive
+┌— [Your Vault Name]
+ ├── 1 - Rough Notes
+ ├── 2 - Source Material
+ ├── 3 - Tags
+ ├── 4 - Indexes
+ ├── 5 - Templates
+ ├── 6 - Atomic Notes
 ```
 
-- **Templates**: Predefined templates for various note types.
-- **Daily Notes**: A dedicated folder for your daily journal or log entries.
-- **Projects**: Use this folder to manage project-specific notes.
-- **Resources**: Store reference materials, articles, and useful information.
-- **Archive**: Move older or inactive notes here to keep your vault clean.
+- **Rough Notes**: For unstructured Notes can serve as Content to create Atomic Notes from
+- **Source Material**: All external resources, that where created by someone else like: slides, papers, images, videos etc.
+- **Tags**: Notes that serve as categories (is a best pratice - closer decribed in section 'Design Choses')
+- **Indexes**: Tags that where linked by alot of Notes (is a best pratice - closer decribed in section 'Design Choses')
+- **Templates**: For common structures for Notes like Definitions, Experiments etc.
+- **Atomic Notes**: For Notes that contain the actual content and optimally are split in very small pieces (atomic way)
 
 ---
 
 ## Getting Started
+
+### 1. Create a new Note
+
+- press the button on the top left to create a new Note
+- Give it a name and write something in it
+- Move the Note to the "1 - Rough Notes" folder
+
+### 2. Add some resources to your vault
+
+- go to your file system and select some pdf document
+- drag this file into the best fitting subfolder under the "2 - Source Material" folder
+
+### 3. Use the newly added resource
+
+- create new Note (like described in step 1. of Getting Started)
+- now tip in ![[--And here the comes the name of the resource file--]]
+
+# DRAFT: In Progress
 
 ### 1. Configure Your Templates
 
@@ -92,7 +103,7 @@ Feel free to customize the folder structure, templates, or metadata to suit your
 ## Design Choses
 - New Notes (connected with Links) for tags focusing on content
    -> These Notes can later be used as an index (or a [MoC](https://forum.obsidian.md/t/what-is-a-moc/58423/11)) to structure your Notes  
-- The actual [Tags from Obsidian](https://help.obsidian.md/Editing+and+formatting/Tags) are used for [status, types (book, paper, website, etc.)](https://forum.obsidian.md/t/a-guide-on-links-vs-tags-in-obsidian/28231/4?u=benboomer)
+- The actual [Tags from Obsidian](https://help.obsidian.md/Editing+and+formatting/Tags) are used for [status, types (book, paper, website, etc.)](https://forum.obsidian.md/t/a-guide-on-links-vs-tags-in-obsidian/28231/4?u=benboomer) [here is a video about it](https://www.youtube.com/watch?v=fwO8LzH9q3I)
 
 ---
 
