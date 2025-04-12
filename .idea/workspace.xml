@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5be90c16-a860-4da0-86c8-6e76cf8cf422" name="Changes" comment="Added baby tag to templates and added 2 more templates">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;benjaminkost&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/benjaminkost/obsidian_template_en.git&quot;,
+    &quot;accountId&quot;: &quot;3a9b9fdf-dbe5-4558-b0a2-c2122d3e5366&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qapFi8zDZkGz66wMjBPF6p3cLP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/benkostka/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian_template_en&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5 - Templates/Structure" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5be90c16-a860-4da0-86c8-6e76cf8cf422" name="Changes" comment="" />
+      <created>1734910440722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734910440722</updated>
+      <workItem from="1734910442733" duration="128000" />
+      <workItem from="1734965745233" duration="275000" />
+      <workItem from="1734966290699" duration="121000" />
+      <workItem from="1735157053675" duration="26000" />
+      <workItem from="1735157091291" duration="611000" />
+      <workItem from="1735238864231" duration="127000" />
+      <workItem from="1736252462352" duration="347000" />
+      <workItem from="1736255631377" duration="23000" />
+      <workItem from="1744472940370" duration="106000" />
+      <workItem from="1744473957531" duration="194000" />
+      <workItem from="1744474177608" duration="32000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added file to every folder so all the folders are visible in github">
+      <option name="closed" value="true" />
+      <created>1734965794934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734965794934</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Rearranged sections in README">
+      <option name="closed" value="true" />
+      <created>1734966406910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734966406910</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding example refernce in atomic note">
+      <option name="closed" value="true" />
+      <created>1735238942232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735238942232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="uses &quot;tags&quot; for status and type (book, person, etc.) and &quot;mytags&quot; for content areas">
+      <option name="closed" value="true" />
+      <created>1736252789416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736252789416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added baby tag to templates and added 2 more templates">
+      <option name="closed" value="true" />
+      <created>1744474142173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744474142173</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added file to every folder so all the folders are visible in github" />
+    <MESSAGE value="Rearranged sections in README" />
+    <MESSAGE value="Adding example refernce in atomic note" />
+    <MESSAGE value="uses &quot;tags&quot; for status and type (book, person, etc.) and &quot;mytags&quot; for content areas" />
+    <MESSAGE value="Added baby tag to templates and added 2 more templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added baby tag to templates and added 2 more templates" />
+  </component>
+</project>
