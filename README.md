@@ -57,20 +57,15 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 - create new Note (like described in step 1. of Getting Started)
 - now tip in ![[--And here the comes the name of the resource file--]]
 
-# DRAFT: In Progress
+## Dive in deeper
 
-### 1. Configure Your Templates
+### Configure Your Templates
 
 - Navigate to the `Templates` folder.
 - Edit the `.md` files to customize them to your workflow.
 - In Obsidian settings, link the "Templates" plugin to the `Templates` folder.
 
-### 2. Start Taking Notes
-
-- Use the Daily Notes plugin to automatically create a new daily note in the `Daily Notes` folder.
-- Use predefined templates to quickly create meeting notes, project plans, or other structured content.
-
-### 3. Utilize Metadata
+### Utilize Metadata
 
 Add metadata to your notes using YAML front matter, for example:
 
@@ -82,12 +77,13 @@ status: in-progress
 ---
 ```
 
-### 4. Explore Integrations
+### Explore Integrations
 
 Leverage plugins like Kanban and Dataview for advanced functionality:
 
-- **Kanban**: Manage tasks visually with drag-and-drop ease.
+- **Templater**: Use scripts for more complex templates.
 - **Dataview**: Query your notes and create dynamic views of your data.
+- **Others**: Latex Suite, Copilot, Excel, QuickAdd, Spaced Repetition, Zotero Integration, Code Emitter
 
 ---
 
@@ -95,7 +91,7 @@ Leverage plugins like Kanban and Dataview for advanced functionality:
 
 Feel free to customize the folder structure, templates, or metadata to suit your workflow. Here are a few ideas:
 
-- Add more folders, such as `Clients` or `Ideas`, based on your needs.
+- Add more folders, such as `Work` or `Planning`, based on your needs.
 - Create additional templates for recurring note types.
 - Adjust metadata fields to better align with your projects.
 
@@ -114,3 +110,4 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 ---
 
 Thank you for using my obsidian template! I hope it helps streamline your Obsidian workflow.
+
