@@ -83,15 +83,15 @@ Leverage plugins like Kanban and Dataview for advanced functionality:
 
 - **Templater**: Use scripts for more complex templates.
 - **Dataview**: Query your notes and create dynamic views of your data.
-- **Others**: Latex Suite, Copilot, Excel, QuickAdd, Spaced Repetition, Zotero Integration, Code Emitter
-
+- **Others**: Latex Suite, Copilot, Smart Connections, Spaced Repetition, Excel, QuickAdd, Zotero Integration, Code Emitter
+-> [Here you can find some interesting Videos for using additional plugins](https://www.youtube.com/watch?v=hSTy_BInQs8&list=PLCPVAsJ6prFeROROzCeEIVfWGMRq1ImT5&index=1)
 ---
 
 ## Customization
 
-Feel free to customize the folder structure, templates, or metadata to suit your workflow. Here are a few ideas:
+Feel free to customize the folder structure, templates, or metadata to suite your workflow. Here are a few ideas:
 
-- Add more folders, such as `Work` or `Planning`, based on your needs.
+- Add more folders, such as `Work` or `Planning` or `Spaced Repetition`, based on your needs.
 - Create additional templates for recurring note types.
 - Adjust metadata fields to better align with your projects.
 
@@ -110,4 +110,5 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 ---
 
 Thank you for using my obsidian template! I hope it helps streamline your Obsidian workflow.
+
 
