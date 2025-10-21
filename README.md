@@ -71,8 +71,10 @@ Add metadata to your notes using YAML front matter, for example:
 
 ```yaml
 ---
-tags: [project, meeting]
-date: 2024-12-23
+created date: 2024-12-23
+mytags:
+  - "[[Bachelor of Science - Mathematics]]"
+  - "[[Analysis I]]"
 status: in-progress
 ---
 ```
@@ -111,6 +113,7 @@ If you encounter any issues or have suggestions for improvement, feel free to op
 ---
 
 Thank you for using my obsidian template! I hope it helps streamline your Obsidian workflow.
+
 
 
 
