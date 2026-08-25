@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "4 - Indexes/example index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "example index"
             }
           }
         ]
@@ -194,8 +194,13 @@
   },
   "active": "31561f76a0a5e8b8",
   "lastOpenFiles": [
-    "202608251905 - pwnv.md",
+    "3 - My Tags/example my tag.md",
+    "3 - My Tags/Untitled",
+    "3 - My Tags/adult.md",
+    "3 - My Tags/solutions.md",
+    "3 - My Tags/child.md",
     "README.md",
+    "202608251905 - pwnv.md",
     "5 - Templates and Scripts/Scripts/delete link from mytags property.md",
     "5 - Templates and Scripts/Scripts/export notes and material related to one note.md",
     "5 - Templates and Scripts/Scripts/replace mytags with tags.md",
@@ -218,15 +223,11 @@
     "5 - Templates and Scripts/Templates/Definitions",
     "Tag Template.md",
     "3 - My Tags/exercises.md",
-    "3 - My Tags/solutions.md",
     "6 - Wiki/Example Atomic Notes.md",
     "1 - Rough Notes/Example Rough Note.md",
     "2 - Source Material/Papers/sample.pdf",
     "2 - Source Material/Images/istockphoto-484234714-612x612.jpg",
-    "2 - Source Material/Books/the-book-collector-example-2023-01.pdf",
     "4 - Indexes/example index.md",
-    "3 - My Tags/adult.md",
-    "3 - My Tags/child.md",
     "3 - My Tags/baby.md",
     "3 - My Tags/example.md",
     "Welcome.md"
