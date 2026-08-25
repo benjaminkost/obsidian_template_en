@@ -1,3 +1,6 @@
 [
-  "dataview"
+  "templater-obsidian",
+  "dataview",
+  "breadcrumbs",
+  "media-extended"
 ]

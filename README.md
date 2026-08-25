@@ -8,13 +8,24 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 
 ## Installation
 
-1. **Download the Template**: Clone or download the repository containing this template.
-- [click me to download repo](https://github.com/benjaminkost/obsidian_template_en/archive/refs/heads/master.zip)
+1. **Download the Template**: [click me to download repo](https://github.com/benjaminkost/obsidian_template_en/archive/refs/heads/master.zip)
 2. **Rename folder**: Rename the folder that was downloaded according to your needs
+e.g.
+```plaintext
+obsidian_template_en -> My Vault
+```
 3. **Move folder**: Move the downloaded folder into your desired location on your file system
+e.g.
+```plaintext
+Downloads -> Documents
+```
 4. **Open in Obsidian**: Open the Obsidian program on your desktop and select open vault and there you navigate to the place where you moved the downloaded folder and select open
-4. **Enable Core Plugins**: Activate all "Core Plugins" like "Templates" in Obsidian settings if they’re not already enabled.
-5. **Enable Community Plugin**: Activate "Dataview" Plugin in the settings under section "Community Plugins"
+e.g. open
+```plaintext
+Documents/My Vault
+```
+5. **Core Plugins**: In Settings navigate to "Core Plugins" and disable "Templates" and enable "Unique Note creator"
+6. **Enable Community Plugin**: Activate "Dataview", "Templater", "Media Extended" and "Breadcrumbs" Plugin in the settings under section "Community Plugins"
 
 ---
 
@@ -24,46 +35,81 @@ The template is based on this [Video from Odysseas](https://www.youtube.com/watc
 ┌— [Your Vault Name]
  ├── 1 - Rough Notes
  ├── 2 - Source Material
- ├── 3 - Tags
+ ├── 3 - My Tags
  ├── 4 - Indexes
- ├── 5 - Templates
- ├── 6 - Atomic Notes
+ ├── 5 - Templates and Scripts
+ ├── 6 - Wiki
+ ├── 7 - Work
+ ├── 8 - Planing 
 ```
 
-- **Rough Notes**: For unstructured Notes can serve as Content to create Atomic Notes from
-- **Source Material**: All external resources, that where created by someone else like: slides, papers, images, videos etc.
-- **Tags**: Notes that serve as categories (is a best pratice - closer decribed in section 'Design Choses')
-- **Indexes**: Tags that where linked by alot of Notes (is a best pratice - closer decribed in section 'Design Choses')
-- **Templates**: For common structures for Notes like Definitions, Experiments etc.
-- **Atomic Notes**: For Notes that contain the actual content and optimally are split in very small pieces (atomic way)
+- **Rough Notes**: For unstructured notes can serve as content to create notes for the `Wiki` folder
+- **Source Material**: All external resources like: slides, papers, images, videos etc.
+- **My Tags**: Notes that serve as overview of overarching topics/themes (is a best pratice - closer described in section 'Design Choses')
+- **Indexes**: Notes like `My Tags` that where linked by a lot of notes (is a best pratice - closer described in section 'Design Choses')
+- **Templates and Scripts**: 
+	- *Templates*: For common structures for Notes like Definitions, Experiments etc.
+	- *Scripts*: Functions that can be executed in the folder/vault to do certain actions like deleting the occurrence of a specific word in all files
+- **Wiki**: For Notes that contain the actual content and optimally are split in very small pieces (atomic way)
+- **Work**: Content created by yourself that is not directly a definition out of a source
+- **Planing**: Scheduling and Planing
 
 ---
 
 ## Getting Started
+**Hint:** If any of the following commands do not work try `Command + P` instead and look for a function that makes sense in the context
 
 ### 1. Create a new Note
+- press `Command + N`
+- Write " - {random name}"
 
-- press the button on the top left to create a new Note
-- Give it a name and write something in it
-- Move the Note to the "1 - Rough Notes" folder
+### 2. Insert template
+- press `Command + Q`
+- Chose `Template - Atomic Notes`
+- Hint: See that in the metadata `aliases` the name without the timestamp is written
 
-### 2. Add some resources to your vault
-
+### 3. Add some source material to your vault
 - go to your file system and select some pdf document
 - drag this file into the best fitting subfolder under the "2 - Source Material" folder
 
-### 3. Use the newly added resource
+### 4. Use the newly added resource
+- now tip in `![[--And here the comes the name of the resource file--]]`
 
-- create new Note (like described in step 1. of Getting Started)
-- now tip in ![[--And here the comes the name of the resource file--]]
-
-## Dive in deeper
+### 5. Add footnote for source
+- a best practice is to always cite your sources as a footnote
+- Put the cursor beneath the added resource from `3.`
+- Press `Command + D`
+- tip in url where the pdf came from
+# Dive in deeper
 
 ### Configure Your Templates
 
 - Navigate to the `Templates` folder.
 - Edit the `.md` files to customize them to your workflow.
-- In Obsidian settings, link the "Templates" plugin to the `Templates` folder.
+### Use existing plugins
+- **[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)**: Is used to query notes with specific metadata or name
+- **[Templater](https://silentvoid13.github.io/Templater/introduction.html)**: Add complex templates to notes or execute scripts
+- **[Breadcrumbs](https://publish.obsidian.md/breadcrumbs-docs/Home)**: Is used to create hierarchical structure with metadata tags like: `up`, `down`, `parent` etc.
+- **[Media Extended](https://community.obsidian.md/plugins/media-extended)**: Manage material like videos or pdfs to make timestamps or give them metadata 
+
+### Explore more plugins
+
+Leverage plugins for advanced functionality:
+
+- **Recommanded**: Latex Suite, Copilot, Excel, QuickAdd, Spaced Repetition, Zotero Integration, Code Emitter
+### Structure Notes
+To a structure of types of relation between notes, there needs to be different metadata fields, because just having a backlink will not tell you if the topic is the subtop or a overarching topic or something else.
+For that we use Breadcrumbs metadata fields:
+
+| **Group / Relation Type**      | **Field**     | **Definition & Use Case**                                                                                                      |
+| ------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Hierarchical (Ontological)** | `up`          | Defines the physical or structural container (e.g., the index note, MOC, or overarching folder/unit note).                     |
+|                                | `down`        | Points to internal subdivisions, specific sections, or child indices directly contained within the current note.               |
+| **Sequential (Horizontal)**    | `prev`        | Links to the directly preceding note in an ordered sequence, chapter flow, lecture list, or timeline.                          |
+|                                | `next`        | Links to the directly succeeding note in an ordered sequence, tutorial step, or timeline.                                      |
+| **Peer / Associative**         | `same`        | Connects non-sequential notes sharing the same hierarchical level or parent topic (e.g., related algorithms or peer concepts). |
+| **Dependency / Prerequisite**  | `requires`    | Identifies prerequisite notes, concepts, or modules that must be learned or completed before understanding the current note.   |
+|                                | `required_by` | Identifies notes, advanced topics, or courses that depend on the mastery or completion of the current note.                    |
 
 ### Utilize Metadata
 
@@ -71,19 +117,10 @@ Add metadata to your notes using YAML front matter, for example:
 
 ```yaml
 ---
-tags: [project, meeting]
-date: 2024-12-23
+grade: 1.3
 status: in-progress
 ---
 ```
-
-### Explore Integrations
-
-Leverage plugins like Kanban and Dataview for advanced functionality:
-
-- **Templater**: Use scripts for more complex templates.
-- **Dataview**: Query your notes and create dynamic views of your data.
-- **Others**: Latex Suite, Copilot, Excel, QuickAdd, Spaced Repetition, Zotero Integration, Code Emitter
 
 ---
 

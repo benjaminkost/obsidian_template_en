@@ -1,10 +1,27 @@
 {
-  "insert-template": [
+  "templater-obsidian:insert-templater": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "Q"
     }
-  ]
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
+  ],
+  "workspace:close": []
 }

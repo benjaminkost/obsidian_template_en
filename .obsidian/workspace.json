@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tag Template.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tag Template"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Example Atomic Notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Example Atomic Notes"
+              "title": "Backlinks"
             }
           },
           {
@@ -145,50 +147,88 @@
               "icon": "lucide-list",
               "title": "Outline of Example Atomic Notes"
             }
+          },
+          {
+            "id": "85fac500bfe60d8e",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "6bda392130503565",
+            "type": "leaf",
+            "state": {
+              "type": "bc-tree-view",
+              "state": {},
+              "icon": "tree-pine",
+              "title": "Tree view"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 393.65625,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "zk-prefixer:Create new unique note": false,
+      "media-extended:Open media library": false,
+      "media-extended:Open media quick switcher": false
     }
   },
   "active": "31561f76a0a5e8b8",
   "lastOpenFiles": [
-    "5 - Templates/Structure",
-    "5 - Templates/Exercises",
-    "5 - Templates/Definitions",
+    "202608251905 - pwnv.md",
+    "README.md",
+    "5 - Templates and Scripts/Scripts/delete link from mytags property.md",
+    "5 - Templates and Scripts/Scripts/export notes and material related to one note.md",
+    "5 - Templates and Scripts/Scripts/replace mytags with tags.md",
+    "5 - Templates and Scripts/Scripts/bulk-note-creation.md",
+    "5 - Templates and Scripts/Scripts/bulk-create-notes-with-template.md",
+    "5 - Templates and Scripts/Templates/Structure/Template - My Tags.md",
+    "5 - Templates and Scripts/Templates/Structure/Template - Indexes.md",
+    "5 - Templates and Scripts/Templates/Definitions/Template - Atomic Notes.md",
+    "5 - Templates and Scripts/Templates/Exercises/Template - Exercise.md",
+    "202608251854 - ojwndc.md",
+    "--And here the comes the name of the resource file--.md",
+    "Untitled.md",
+    "8 - Planing",
+    "7 - Work",
+    "5 - Templates and Scripts/Scripts",
+    "5 - Templates and Scripts/Templates",
+    "5 - Templates and Scripts/Untitled",
+    "5 - Templates and Scripts/Templates/Structure",
+    "5 - Templates and Scripts/Templates/Exercises",
+    "5 - Templates and Scripts/Templates/Definitions",
     "Tag Template.md",
-    "3 - Tags/exercises.md",
-    "3 - Tags/solutions.md",
-    "6 - Atomic Notes/Example Atomic Notes.md",
-    "5 - Templates/Definitions/Example Atomic Notes Template.md",
+    "3 - My Tags/exercises.md",
+    "3 - My Tags/solutions.md",
+    "6 - Wiki/Example Atomic Notes.md",
     "1 - Rough Notes/Example Rough Note.md",
     "2 - Source Material/Papers/sample.pdf",
     "2 - Source Material/Images/istockphoto-484234714-612x612.jpg",
     "2 - Source Material/Books/the-book-collector-example-2023-01.pdf",
-    "2 - Source Material/Slides/example-slides.pdf",
-    "2 - Source Material/Videos/file_example_MP4_480_1_5MG.mp4",
-    "2 - Source Material/Webpages/Example Domain.pdf",
-    "2 - Source Material/Others/dummy.pdf",
     "4 - Indexes/example index.md",
-    "3 - Tags/adult.md",
-    "3 - Tags/child.md",
-    "3 - Tags/baby.md",
-    "README.md",
-    "3 - Tags/example.md",
-    "2 - Source Material/Slides",
-    "2 - Source Material/Webpages",
+    "3 - My Tags/adult.md",
+    "3 - My Tags/child.md",
+    "3 - My Tags/baby.md",
+    "3 - My Tags/example.md",
     "Welcome.md"
   ]
 }
