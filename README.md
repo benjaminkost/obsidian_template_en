@@ -61,11 +61,12 @@ Documents/My Vault
 
 ### 1. Create a new Note
 - press `Command + N`
-- Write " - {random name}"
+- Important: There is a timestamp and to search properly you need to name the file accordingly "TIMESTAMP - {Name of your note}"
+  - This will add the name behind the `-` to the `aliases` section in the metadata so you can find it with the normal search	
 
 ### 2. Insert template
 - press `Command + Q`
-- Chose `Template - Atomic Notes`
+- Choose `Template - Atomic Notes`
 - Hint: See that in the metadata `aliases` the name without the timestamp is written
 
 ### 3. Add some source material to your vault
